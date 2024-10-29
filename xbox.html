@@ -71,10 +71,7 @@
            
         </nav>
     </header>
-    <div class="espacio"></div>
-    <img src="introxboX.jpg" 
-    height="5px"
-    width="2px"/>
+ 
     <div class="espacio"></div>
     <audio id="xboxopen" src="xboxsound.mp3" preload="auto"></audio>
     <section id="seriesx">
@@ -246,29 +243,9 @@
         };
     </script>
 
-    <script>
-        document.getElementById('reproducir').addEventListener('click', function() {
-            var audio = document.getElementById('miAudio');
-            audio.play();
-        });
-    </script>
-<!--script de gif-->
 
-<script>
-    window.onload = function() {
-        const audio = document.getElementById('switchopen');
-        audio.play().catch(error => {
-            console.log('No se pudo reproducir el audio:', error);
-        });
-    };
-</script>
 
-<script>
-    document.getElementById('reproducir').addEventListener('click', function() {
-        var audio = document.getElementById('miAudio');
-        audio.play();
-    });
-</script>
+
 <script>
     const carrito = [];
     let total = 0;
